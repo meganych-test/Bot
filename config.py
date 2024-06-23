@@ -2,4 +2,8 @@
 BOT_TOKEN = '7205345847:AAEVHooV_vDBj45bOLm6dAMf3PAsaxvAUek'
 WEBAPP_URL = 'https://meganych-test.github.io/Circle-Cliker-1/'
 BUTTON_TEXT = 'CLICK THIS!'
-GREETING_MESSAGE = 'Hello there! We are currently experiencing some technical difficulties with our website. We apologize for any inconvenience this may have caused you. We are doing everything we can to fix the issue right now.'
+GREETING_MESSAGE = 'Lets practice everything we tried so far by coding an Echo Bot. \n\nIts functionality will be rather simple: every text message it receives will be sent right back ...'
+
+# New configurations for the second button
+SECOND_BUTTON_TEXT = 'Meganych Channel'
+SECOND_BUTTON_URL = 'https://t.me/meganych'
