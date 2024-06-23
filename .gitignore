@@ -1,1 +1,2 @@
-config.py
+git add config.py
+git commit -m "Add config file"
