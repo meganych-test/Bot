@@ -23,25 +23,6 @@
         <div id="unity-build-title">Inc-Vibration</div>
       </div>
     </div>
-    
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script>
-    window.onload = function() {
-        const tg = window.Telegram.WebApp;
-        
-        // Expand the Web App to full height
-        tg.expand();
-
-        // Set the background color to black
-        tg.setBackgroundColor('#000000');
-
-        // Set the header color (you might want to adjust this)
-        tg.setHeaderColor('#000000');
-
-        // Additional initialization code can go here
-    };
-</script>
-
     <script>
 
       var container = document.querySelector("#unity-container");
@@ -78,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Inc-Vibration_Web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Inc-Vibration_Web.data.br",
-        frameworkUrl: buildUrl + "/Inc-Vibration_Web.framework.js.br",
-        codeUrl: buildUrl + "/Inc-Vibration_Web.wasm.br",
+        dataUrl: buildUrl + "/Inc-Vibration_Web.data",
+        frameworkUrl: buildUrl + "/Inc-Vibration_Web.framework.js",
+        codeUrl: buildUrl + "/Inc-Vibration_Web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Inc-Vibration",
