@@ -1,3 +1,4 @@
+<script>
 mergeInto(LibraryManager.library, {
   TryVibrate: function(duration) {
     if ("vibrate" in navigator) {
@@ -8,3 +9,4 @@ mergeInto(LibraryManager.library, {
     }
   }
 });
+</script>
